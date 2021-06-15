@@ -1,0 +1,104 @@
+﻿/*modification du CSS des objets body*/
+body {
+    /*mise en place d'un background issu d'une image*/
+    background: url(../Images/MainBackground.gif) fixed no-repeat center;
+    /*modification de la taille du background pour remplir l'écran*/
+    background-size: 100% 100%;
+    /*alignement du text au centre*/
+    text-align: center;
+    /*marge 0*/
+    margin: 0;
+    /*marge basse 7% de la hauteur*/
+    margin-bottom: 7vh;
+}
+
+/*modification du CSS des objets h1*/
+h1, h3 {
+    /*soulignage du texte*/
+    text-decoration: underline;
+    /*modification de la couleur en blanc*/
+    color: white;
+}
+
+/*modification du CSS des objets footer*/
+footer {
+    /*position fixe*/
+    position: fixed;
+    /*position en bas à droite de l'écran*/
+    right: 0;
+    bottom: 0;
+    /*set de la couleur du texte en blanc*/
+    color: white;
+    /*alignement du text à droite*/
+    text-align: right;
+    /*border haute blache solide de 2 pixels*/
+    border-top: solid 2px #67126e;
+    /*couleur de background noire*/
+    background-color: black;
+    /*épaisseur 100%*/
+    width: 100%;
+    /*marge basse 0*/
+    margin-bottom: 0;
+    /*taille 5% de la hauteur de la page*/
+    height: 5vh;
+}
+
+/*modification du CSS des objets fieldset*/
+fieldset {
+    /*set de la couleur du texte en blanc*/
+    color: white;
+    /*set de la couleur de background en noir*/
+    background-color: black;
+    /*bordure*/
+    border: solid 2px #67126e;
+    /*épaisseur 50%*/
+    width: 50%;
+    /*marge gauche de 25% de l'épaisseur de l'écran*/
+    margin-left: 25vw;
+    text-align:left;
+}
+
+/*modification du CSS des objets td*/
+td {
+    /*set de la couleur du texte en blanc*/
+    color: white;
+    /*set de la couleur de background en noir*/
+    background-color: black;
+    /*bordure*/
+    border: solid 2px #67126e;
+    /*épaisseur 50%*/
+    width: 50%;
+}
+
+/*modification du CSS des objets th*/
+th {
+    /*set de la couleur du texte en blanc*/
+    color: white;
+    /*set de la couleur de background en noir*/
+    background-color: black;
+    /*bordure*/
+    border: solid 2px #67126e;
+    /*épaisseur 100%*/
+    width: 100%;
+}
+
+/*modification du CSS des objets table*/
+table {
+    /*épaisseur 25% de l'épaisseur de l'écran*/
+    width: 25vw;
+    /*marge gauche de 37.5% de l'épaisseur de l'écran*/
+    margin-left: 37.5vw;
+    /*marge haute de 10 pixels*/
+    margin-top: 10px;
+}
+
+span{
+    color:red;
+    display:inline-block;
+}
+
+input {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
